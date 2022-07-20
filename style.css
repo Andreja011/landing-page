@@ -18,4 +18,106 @@ body {
   color: #555;
 }
 
-/* ========== SECTION HERO ========== */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ========== GENERAL CLASSES ========== */
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+.dark-blue-color {
+  background-color: #1f2937;
+}
+
+.low-white-color {
+  color: #e5e7eb;
+}
+
+.high-white-color {
+  color: #f9faf8;
+}
+
+.royal-blue {
+  background-color: #3882f6;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.button {
+  display: inline-block;
+  background-color: #3882f6;
+  padding: 1rem 3.2rem;
+  border-radius: 8px;
+  color: #f9faf8;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.small-font {
+  font-size: 1.8rem;
+}
+
+.medium-font {
+  font-size: 2.4rem;
+}
+
+.large-font {
+  font-size: 3.6rem;
+}
+
+.xl-font {
+  font-size: 4.8rem;
+}
+
+/* ==================================
+========== SECTION-HERO ==========
+================================== */
+
+/* ----- section-hero-header ----- */
+.section-hero {
+  padding: 2.5rem 0 10rem 0;
+}
+
+.section-hero-header {
+  margin-bottom: 10rem;
+  display: flex;
+  gap: 2.5rem;
+}
+.section-hero-header-logo {
+  margin-right: auto;
+}
+
+/* ----- section-hero-content ----- */
+.section-hero-content {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.section-hero-content-left {
+  width: 50%;
+}
+
+.section-herocontent-left-heading {
+  margin-bottom: 2rem;
+}
+
+.section-hero-content-left-text {
+  margin-bottom: 2rem;
+}
+
+.section-hero-content-img {
+  width: 50%;
+  background-color: gray;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
