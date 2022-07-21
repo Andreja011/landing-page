@@ -175,3 +175,26 @@ ul {
 .section-quote-author {
   text-align: end;
 }
+
+/* ==========================================
+========== SECTION-CALL-TO-ACTION ==========
+========================================== */
+.section-call-to-action {
+  padding: 10rem 0;
+}
+
+.section-call-to-action-container {
+  padding: 5rem 10rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-call-to-action-button {
+  border: 2px solid #f9faf8;
+}
+
+/* ==========================================
+========== SECTION-FOOTER ==========
+========================================== */
