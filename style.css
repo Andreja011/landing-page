@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&family=Rubik:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&family=Rubik:wght@400;500;700&display=swap");
 
 /* ========== GLOBAL RESET ========== */
 * {
@@ -47,8 +47,16 @@ ul {
   background-color: #3882f6;
 }
 
+.light {
+  font-weight: 300;
+}
+
 .bold {
   font-weight: 700;
+}
+
+.extra-bold {
+  font-weight: 900;
 }
 
 .button {
@@ -77,6 +85,9 @@ ul {
   font-size: 4.8rem;
 }
 
+.margin-small {
+  margin-bottom: 2rem;
+}
 /* ==================================
 ========== SECTION-HERO ==========
 ================================== */
@@ -105,14 +116,6 @@ ul {
   width: 50%;
 }
 
-.section-herocontent-left-heading {
-  margin-bottom: 2rem;
-}
-
-.section-hero-content-left-text {
-  margin-bottom: 2rem;
-}
-
 .section-hero-content-img {
   width: 50%;
   background-color: gray;
@@ -124,4 +127,39 @@ ul {
 
 /* ==========================================
 ========== SECTION-SHOW-CONTENT ==========
+========================================== */
+
+.section-show-content {
+  padding: 5rem 0 10rem 0;
+}
+
+/* ----- section-show-content-heading ----- */
+.section-show-contnent-heading {
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+/* ----- section-show-content-cards ----- */
+.section-show-content-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-show-content-card {
+  width: 20rem;
+}
+
+.section-show-contnet-card-img {
+  height: 20rem;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+}
+
+.section-show-content-card-text {
+  text-align: center;
+}
+
+/* ==========================================
+========== SECTION-QUOTE ==========
 ========================================== */
