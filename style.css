@@ -42,6 +42,9 @@ ul {
   --light-text: 300;
   --bold-text: 700;
   --extra-bold-text: 900;
+  /* -- MARGINS AND PADDINGS -- */
+  --mp-small: 2rem;
+  --mp-large: 10rem;
 }
 
 /* ========== GENERAL CLASSES ========== */
@@ -83,7 +86,7 @@ ul {
   padding: 1rem 3.2rem;
   border-radius: 8px;
   color: var(--high-white);
-  font-size: 1.8rem;
+  font-size: var(--small-text);
   font-weight: var(--bold-text);
 }
 
@@ -104,7 +107,7 @@ ul {
 }
 
 .margin-small {
-  margin-bottom: 2rem;
+  margin-bottom: var(--mp-small);
 }
 
 /* =================================
@@ -113,11 +116,11 @@ ul {
 
 /* ----- section-hero-header ----- */
 .section-hero {
-  padding: 2.5rem 0 10rem 0;
+  padding: 2.5rem 0 var(--mp-large) 0;
 }
 
 .section-hero-header {
-  margin-bottom: 10rem;
+  margin-bottom: var(--mp-large);
   display: flex;
   gap: 2.5rem;
 }
@@ -149,7 +152,7 @@ ul {
 ========================================== */
 
 .section-show-content {
-  padding: 5rem 0 10rem 0;
+  padding: 5rem 0 var(--mp-large) 0;
 }
 
 /* ----- section-show-content-heading ----- */
@@ -184,7 +187,7 @@ ul {
 ========================================== */
 .section-quote {
   background-color: var(--low-white);
-  padding: 10rem 0;
+  padding: var(--mp-large) 0;
 }
 
 .section-quote-text {
@@ -199,11 +202,11 @@ ul {
 ========== SECTION-CALL-TO-ACTION ==========
 ========================================== */
 .section-call-to-action {
-  padding: 10rem 0;
+  padding: var(--mp-large) 0;
 }
 
 .section-call-to-action-container {
-  padding: 5rem 10rem;
+  padding: 5rem var(--mp-large);
   border-radius: 15px;
   display: flex;
   justify-content: space-between;
