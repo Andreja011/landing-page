@@ -163,3 +163,15 @@ ul {
 /* ==========================================
 ========== SECTION-QUOTE ==========
 ========================================== */
+.section-quote {
+  background-color: #e5e7eb;
+  padding: 10rem 0;
+}
+
+.section-quote-text {
+  font-style: italic;
+}
+
+.section-quote-author {
+  text-align: end;
+}
