@@ -26,76 +26,90 @@ ul {
   list-style: none;
 }
 
+/* ========== VARIABLES ========== */
+:root {
+  /* -- COLORS -- */
+  --dark-blue: #1f2937;
+  --light-blue: #3882f6;
+  --low-white: #e5e7eb;
+  --high-white: #f9faf8;
+  /* -- TEXT SIZE -- */
+  --small-text: 1.8rem;
+  --medium-text: 2.4rem;
+  --large-text: 3.6rem;
+  --xl-text: 4.8rem;
+  /* -- TEXT WEIGHT -- */
+  --light-text: 300;
+  --bold-text: 700;
+  --extra-bold-text: 900;
+}
+
 /* ========== GENERAL CLASSES ========== */
 .container {
   max-width: 100rem;
   margin: 0 auto;
 }
 .dark-blue-color {
-  background-color: #1f2937;
+  background-color: var(--dark-blue);
 }
 
 .low-white-color {
-  color: #e5e7eb;
+  color: var(--low-white);
 }
 
 .high-white-color {
-  color: #f9faf8;
+  color: var(--high-white);
 }
 
 .royal-blue {
-  background-color: #3882f6;
+  background-color: var(--light-blue);
 }
 
 .light {
-  font-weight: 300;
+  font-weight: var(--light-text);
 }
 
 .bold {
-  font-weight: 700;
+  font-weight: var(--bold-text);
 }
 
 .extra-bold {
-  font-weight: 900;
+  font-weight: var(--extra-bold-text);
 }
 
 .button {
   display: inline-block;
-  background-color: #3882f6;
+  background-color: var(--light-blue);
   padding: 1rem 3.2rem;
   border-radius: 8px;
-  color: #f9faf8;
+  color: var(--high-white);
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: var(--bold-text);
 }
 
 .small-font {
-  font-size: 1.8rem;
+  font-size: var(--small-text);
 }
 
 .medium-font {
-  font-size: 2.4rem;
+  font-size: var(--medium-text);
 }
 
 .large-font {
-  font-size: 3.6rem;
+  font-size: var(--large-text);
 }
 
 .xl-font {
-  font-size: 4.8rem;
+  font-size: var(--xl-text);
 }
 
 .margin-small {
   margin-bottom: 2rem;
 }
 
-/* ------ FIRST TIME VARIABLES ----- */
-:root {
-  --dark-blue: #1f2937;
-}
-/* ==================================
+/* =================================
 ========== SECTION-HERO ==========
-================================== */
+==================================  */
 
 /* ----- section-hero-header ----- */
 .section-hero {
@@ -140,7 +154,7 @@ ul {
 
 /* ----- section-show-content-heading ----- */
 .section-show-contnent-heading {
-  color: #1f2937;
+  color: var(--dark-blue);
   text-align: center;
   margin-bottom: 5rem;
 }
@@ -157,7 +171,7 @@ ul {
 
 .section-show-contnet-card-img {
   height: 20rem;
-  border: 5px solid #3882f6;
+  border: 5px solid var(--light-blue);
   border-radius: 15px;
 }
 
@@ -169,7 +183,7 @@ ul {
 ========== SECTION-QUOTE ==========
 ========================================== */
 .section-quote {
-  background-color: #e5e7eb;
+  background-color: var(--low-white);
   padding: 10rem 0;
 }
 
@@ -197,7 +211,7 @@ ul {
 }
 
 .section-call-to-action-button {
-  border: 2px solid #f9faf8;
+  border: 2px solid var(--high-white);
 }
 
 /* ==========================================
